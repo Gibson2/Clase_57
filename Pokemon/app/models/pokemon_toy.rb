@@ -1,0 +1,2 @@
+class PokemonToy < ApplicationRecord
+end
