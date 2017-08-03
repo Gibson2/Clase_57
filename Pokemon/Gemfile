@@ -33,6 +33,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Gemas para el manejo de errores
+gem 'better_errors'
+
+gem 'pry-rails'
+
+gem 'binding_of_caller'
+
 #Gema Devise
 gem "devise", git: 'https://github.com/plataformatec/devise.git'
 
