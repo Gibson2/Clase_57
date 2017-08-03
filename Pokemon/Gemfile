@@ -33,8 +33,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Gema Devise
+gem "devise", git: 'https://github.com/plataformatec/devise.git'
+
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18'
 end
 
 group :development, :test do
@@ -45,6 +48,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   #Agregando Postgre SQL
   gem 'sqlite3'
+  #Diagrama de Modelo
+  gem 'pry-rails'
 end
 
 group :development do

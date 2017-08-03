@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :pokemon_toys
 
 	get 'pokemon_toys/index'
